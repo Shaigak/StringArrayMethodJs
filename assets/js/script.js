@@ -260,4 +260,18 @@ let students=["Cavid", "Jale", "Roya", "Konul", "Cinare", "Anar", "Cinare"]
 
 
 
+function reverse(str){
+    var reverse =  [];
+    for (var i = str.length - 1; i >= 0; i--){
+       reverse.push(str[i]);
+}
+return reverse.join(" ");
+}
 
+alert(reverse(" hello "));
+
+
+
+
+
+let arr=["Konul","Saiq"]
